@@ -66,5 +66,7 @@ $res1 = FluentMath::add(5)
     ->add(8)
     ->result();
 
-$res2 = FluentMath::subtract(1)->add(10)->result();
+$res2 = FluentMath::subtract(1)
+    ->add(10)
+    ->result();
 ```
