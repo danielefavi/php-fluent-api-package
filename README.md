@@ -69,4 +69,7 @@ $res1 = FluentMath::add(5)
 $res2 = FluentMath::subtract(1)
     ->add(10)
     ->result();
+
+// $res1 equals to 14
+// $res2 equals to 9
 ```
