@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "DanieleFavi\\Settings\\": "src/"
+            "DanieleFavi\\FluentApi\\": "src/"
         }
     },
     "minimum-stability": "dev"
