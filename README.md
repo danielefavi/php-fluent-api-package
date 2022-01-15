@@ -10,7 +10,7 @@ composer require danielefavi/fluent-api
 
 ## Usage
 
-### Import the*FluentApi* library in the file you need it.
+### 1) Import the *FluentApi* class in the file you need it.
 
 ```php
 use DanieleFavi\FluentApi\FluentApi;
