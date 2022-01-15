@@ -10,7 +10,13 @@ composer require danielefavi/fluent-api
 
 ## Usage
 
-### 1) Extend your class with `FluentApi` class.
+### Import the*FluentApi* library in the file you need it.
+
+```php
+use DanieleFavi\FluentApi\FluentApi;
+```
+
+### 2) Extend your class with `FluentApi` class.
 
 ```php
 class FluentMath extends FluentApi
@@ -19,7 +25,7 @@ class FluentMath extends FluentApi
 }
 ```
 
-### 2) Create your methods that can be invoked statically and non-statically.
+### 3) Create your methods that can be invoked statically and non-statically.
 
 Declare the functions that can be called statically or non-statically with an underscore `_`.
 
@@ -51,7 +57,7 @@ class FluentMath extends FluentApi
 }
 ```
 
-### 3) Example of usage
+### 4) Example of usage
 
 ```php
 $res1 = FluentMath::add(5)

@@ -1,5 +1,7 @@
 <?php
 
+namespace DanieleFavi\FluentApi;
+
 /**
  * Class designed for fluent API interface: you can invoke the same method 
  * statically and non-statically.
